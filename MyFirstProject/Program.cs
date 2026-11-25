@@ -1,16 +1,15 @@
 ﻿using System.Diagnostics.SymbolStore;
-
+/*
 Console.Write("C# program."); //No new Line
 Console.WriteLine("Hello, World!"); // New line
 Console.WriteLine("This is my first C# program."); // New line
 
-/*
- This is a simple Comment in C# program.
-*/
+//This is a simple Comment in C# program.
+
 Console.WriteLine("Sabbir\nHossain");
+*/
 
-
-
+/*
 int x; //declaration
 x = 12; //initialization
 int y = 21; //declaration and initialization
@@ -32,7 +31,12 @@ Console.WriteLine("Hello, " + name);
 
 String UserName = symbol + name;
 Console.WriteLine("The UserName is: " + UserName);
+*/
 
+
+//Constants
+const double pi = 3.1416;
+Console.WriteLine(pi);
 
 
 Console.ReadKey();
