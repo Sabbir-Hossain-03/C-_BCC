@@ -39,6 +39,7 @@ const double pi = 3.1416;
 Console.WriteLine(pi);
 */
 
+/*
 //typecasting
 double a = 3.14;
 int b = Convert.ToInt32(a);
@@ -64,5 +65,15 @@ String i = "true";
 bool j = Convert.ToBoolean(i);
 Console.WriteLine(j);
 Console.WriteLine(j.GetType());
+*/
+
+//User Input
+Console.WriteLine("Enter your name: ");
+String name = Console.ReadLine();
+Console.WriteLine("Hello, " + name);
+
+Console.WriteLine("Enter your age: ");
+int age = Convert.ToInt32(Console.ReadLine()); // Need to convert the input because the input is a string by default.
+Console.WriteLine("You are " + age + " years old.");
 
 Console.ReadKey();
