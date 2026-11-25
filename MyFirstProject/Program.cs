@@ -78,6 +78,7 @@ int age = Convert.ToInt32(Console.ReadLine()); // Need to convert the input beca
 Console.WriteLine("You are " + age + " years old.");
 */
 
+/*
 //basic arithmetic
 
 int friends = 10;
@@ -96,5 +97,20 @@ int remainder = friends % 2;
 
 Console.WriteLine(friends);
 Console.WriteLine(remainder);
+*/
+
+//Math class
+double x = 40.86;
+double y = 5;
+//double y = Math.Pow(x, 2);
+//double y = Math.Sqrt(x);
+//double y = Math.Round(x);
+//double y = Math.Ceiling(x);
+//double y = Math.Floor(x);
+//double g = Math.Max(x, y);
+double g = Math.Min(x, y);
+
+Console.WriteLine(g);
+
 
 Console.ReadKey();
