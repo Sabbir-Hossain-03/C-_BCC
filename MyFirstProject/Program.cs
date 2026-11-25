@@ -67,6 +67,7 @@ Console.WriteLine(j);
 Console.WriteLine(j.GetType());
 */
 
+/*
 //User Input
 Console.WriteLine("Enter your name: ");
 String name = Console.ReadLine();
@@ -75,5 +76,25 @@ Console.WriteLine("Hello, " + name);
 Console.WriteLine("Enter your age: ");
 int age = Convert.ToInt32(Console.ReadLine()); // Need to convert the input because the input is a string by default.
 Console.WriteLine("You are " + age + " years old.");
+*/
+
+//basic arithmetic
+
+int friends = 10;
+//friends = friends + 1;
+//friends += 2;
+//friends++;
+//friends = friends - 1;
+//friends -= 2;
+//friends--;
+//friends = friends * 2;
+//friends *= 2;
+//friends = friends / 2;
+//friends /= 2;
+
+int remainder = friends % 2;
+
+Console.WriteLine(friends);
+Console.WriteLine(remainder);
 
 Console.ReadKey();
