@@ -22,6 +22,7 @@ else
 }
 */
 
+/*
 Console.Write("Enter your Name: ");
 string name = Console.ReadLine();
 
@@ -33,5 +34,6 @@ else
 {
     Console.WriteLine("You have not entered a name.");
 }
+*/
 
 Console.ReadKey();
