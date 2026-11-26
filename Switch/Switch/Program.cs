@@ -1,30 +1,30 @@
-﻿Console.WriteLine("What day is it? ");
+﻿Console.Write("Enter the name of today: ");
 String day = Console.ReadLine();
 switch(day.ToLower())
 {
-    case "monday":
-        Console.WriteLine("It's Monday!");
-        break;
-    case "tuesday":
-        Console.WriteLine("It's Tuesday!");
-        break;
-    case "wednesday":
-        Console.WriteLine("It's Wednesday!");
-        break;
-    case "thursday":
-        Console.WriteLine("It's Thursday!");
-        break;
-    case "friday":
-        Console.WriteLine("It's Friday!");
-        break;
     case "saturday":
-        Console.WriteLine("It's Saturday!");
+        Console.Write("Today is : " + day);
         break;
     case "sunday":
-        Console.WriteLine("It's Sunday!");
+        Console.Write("Today is : " + day);
+        break;
+    case "monday":
+        Console.Write("Today is : " + day);
+        break;
+    case "tuesday":
+        Console.Write("Today is : " + day);
+        break;
+    case "wednesday":
+        Console.Write("Today is : " + day);
+        break;
+    case "thursday":
+        Console.Write("Today is : " + day);
+        break;
+    case "friday":
+        Console.Write("Today is : " + day);
         break;
     default:
-        Console.WriteLine("That's not a valid day.");
+        Console.Write(day + " is not a valid day!");
         break;
 }
 Console.ReadKey();
