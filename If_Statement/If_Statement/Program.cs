@@ -1,5 +1,7 @@
-﻿Console.Write("Enter your age: ");
+﻿/*
+Console.Write("Enter your age: ");
 int age = Convert.ToInt32(Console.ReadLine());
+
 
 //Order matters if the first if is correct the rest will not be checked.
 if (age >= 100)
@@ -18,4 +20,18 @@ else
 {
     Console.WriteLine("You are not eligible to vote.");
 }
+*/
+
+Console.Write("Enter your Name: ");
+string name = Console.ReadLine();
+
+if(name != "")
+{
+    Console.WriteLine("Hello, " + name);
+}
+else
+{
+    Console.WriteLine("You have not entered a name.");
+}
+
 Console.ReadKey();
