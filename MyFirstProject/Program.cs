@@ -114,6 +114,7 @@ double g = Math.Min(x, y);
 Console.WriteLine(g);
 */
 
+/*
 //Random number generator
 Random random = new Random();
 //int diceRoll = random.Next(1, 7);//number between 1 and 6
@@ -125,5 +126,6 @@ Console.WriteLine(num);
 Console.WriteLine(num1);
 Console.WriteLine(num2);
 Console.WriteLine(num3);
+*/
 
 Console.ReadKey();
