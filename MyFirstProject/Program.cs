@@ -99,6 +99,7 @@ Console.WriteLine(friends);
 Console.WriteLine(remainder);
 */
 
+/*
 //Math class
 double x = 40.86;
 double y = 5;
@@ -111,6 +112,18 @@ double y = 5;
 double g = Math.Min(x, y);
 
 Console.WriteLine(g);
+*/
 
+//Random number generator
+Random random = new Random();
+//int diceRoll = random.Next(1, 7);//number between 1 and 6
+double num = random.NextDouble(); //decimal number between 0 and 1
+int num1 = random.Next(1, 7);
+int num2 = random.Next(1, 7);
+int num3 = random.Next(1, 7);
+Console.WriteLine(num);
+Console.WriteLine(num1);
+Console.WriteLine(num2);
+Console.WriteLine(num3);
 
 Console.ReadKey();
