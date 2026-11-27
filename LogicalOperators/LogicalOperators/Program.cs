@@ -8,8 +8,4 @@ else if(temp <= -50 || temp >= 50)
 {
     Console.WriteLine("Don't go outside");
 }
-else
-{
-    Console.WriteLine("The weather is not suitable");
-}
 Console.ReadKey();
