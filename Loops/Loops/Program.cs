@@ -10,12 +10,12 @@ Console.WriteLine("Hello, " + name + "!");
 */
 
 //fOR LOOP
-
+/*
 for(int i = 10; i > 0; i--)
 {
     Console.WriteLine(i);
 }
 Console.WriteLine("Happy New Year!");
-
+*/
 
 Console.ReadKey();
