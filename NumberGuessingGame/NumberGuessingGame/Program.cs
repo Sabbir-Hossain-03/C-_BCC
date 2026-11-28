@@ -1,5 +1,4 @@
-﻿
-Random ran = new Random();
+﻿Random ran = new Random();
 bool playAgain = true;
 int min = 1;
 int max = 100;
@@ -14,13 +13,10 @@ while (playAgain)
     guesses = 0;
     response = "";
     number = ran.Next(min, max + 1);
-
-    while(guess != number)
+    while (guess != number)
     {
-        Console.Write($"Guess a number between {min}-{max}: ");
+        Console.Write($"Enter number between {min}-{max}: ");
         guess = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("Guess: " + guess);
-
         if (guess > number)
         {
             Console.WriteLine(guess + " is too high");
